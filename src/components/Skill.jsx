@@ -10,57 +10,57 @@ import Skillcard from "./Skillcard";
 
 const skillItem = [
   {
-    imgSrc: '/images/c.png',
+    imgSrc: `${import.meta.env.BASE_URL}images/c.png`,
     label: 'C',
     desc: 'Coding Language'
   },
   {
-    imgSrc: '/images/c++.png',
+    imgSrc: `${import.meta.env.BASE_URL}images/c++.png`,
     label: 'C++',
     desc: 'Coding Language'
   },
   {
-    imgSrc: '/images/python.png',
+    imgSrc: `${import.meta.env.BASE_URL}images/python.png`,
     label: 'Python',
     desc: 'Coding Language'
   },
   {
-    imgSrc: '/images/mysql.png',
+    imgSrc: `${import.meta.env.BASE_URL}images/mysql.png`,
     label: 'My SQL',
     desc: 'Database Query Language'
   },
   {
-    imgSrc: '/images/html.png',
+    imgSrc: `${import.meta.env.BASE_URL}images/html.png`,
     label: 'HTML',
     desc: 'WEB Development Language'
   },
   {
-    imgSrc: '/images/css3.svg',
+    imgSrc: `${import.meta.env.BASE_URL}images/css3.svg`,
     label: 'CSS',
     desc: 'User Interface'
   },
   {
-    imgSrc: '/images/javascript.svg',
+    imgSrc: `${import.meta.env.BASE_URL}images/javascript.svg`,
     label: 'JavaScript',
     desc: 'Interaction'
   },
   {
-    imgSrc: '/images/react.svg',
+    imgSrc: `${import.meta.env.BASE_URL}images/react.svg`,
     label: 'React',
     desc: 'Framework'
   },
   {
-    imgSrc: '/images/tailwindcss.svg',
+    imgSrc: `${import.meta.env.BASE_URL}images/tailwindcss.svg`,
     label: 'TailwindCSS',
     desc: 'User Interface'
   },
   {
-    imgSrc: '/images/canva.png',
+    imgSrc: `${import.meta.env.BASE_URL}images/canva.png`,
     label: 'Canva',
     desc: 'Design Tool'
   },
   {
-    imgSrc: '/images/aws.png',
+    imgSrc: `${import.meta.env.BASE_URL}images/aws.png`,
     label: 'AWS',
     desc: 'Cloud Computing'
   },

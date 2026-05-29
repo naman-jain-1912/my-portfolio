@@ -9,18 +9,18 @@
 import ProjectCard from "./ProjectCard";
 
 const works = [
-    {
-        imgSrc: '/images/project-1.png',
-        title: 'Library Management System',
-        tags: ['OOPS', 'Development'],
-        projectLink: 'https://github.com/naman-jain-1912/Library-Management-System.git'
-    },
-    {
-        imgSrc: '/images/project-2.webp',
-        title: 'Carbon Aware Shopping Assistant',
-        tags: ['OOPS', 'Sustainability'],
-        projectLink: 'https://github.com/naman-jain-1912/Carbon-Aware-Shopping-Assistant.git'
-    },
+  {
+    imgSrc: `${import.meta.env.BASE_URL}images/project-1.png`,
+    title: 'Library Management System',
+    tags: ['OOPS', 'Development'],
+    projectLink: 'https://github.com/naman-jain-1912/Library-Management-System.git'
+  },
+  {
+    imgSrc: `${import.meta.env.BASE_URL}images/project-2.webp`,
+    title: 'Carbon Aware Shopping Assistant',
+    tags: ['OOPS', 'Sustainability'],
+    projectLink: 'https://github.com/naman-jain-1912/Carbon-Aware-Shopping-Assistant.git'
+  },
 ];
 
 const Work = () => {
